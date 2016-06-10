@@ -5,8 +5,8 @@
  * @date June 9, 2016
  * 
  * StudentID: 300875942
- * GitHub: 
- * website:  
+ * GitHub: https://github.com/Satnam1313/Lab-3-Bower-and-Fonts
+ * website:  http://lab3-fonts-and-bower.azurewebsites.net/contact.html
  * @description This file is the main javascript file for the web site
  */
 
@@ -75,7 +75,7 @@
      function About(){
        var paragraph=document.getElementsByTagName("p")[0];
 
-        paragraph.textContent="This is my First Paragraph of " +document.title+ " page";
+        paragraph.innerHTML="This is my First Paragraph of " +document.title+ " page"+"I am an international student and I am currently enrolled in the Software Engineering Tech. program at Centennial College. I am a person with a positive attitude, strong determination and good analytical skills. I have good verbal as well as writting skills. I have completed my Secondary Education from India. Through the program I have learned HTML/CSS,Microsoft-Office and Basics of C# language.I have lot of curiosity to learn JavaScript,Linux,System Analysis and Database Management.<br>My hobbies are:<br>1. Workout at gym.<br>2. Learning new things<br>3. Love to explore new places.<br>4. Allways curious to know how thhings happerns around the world.";
     }
       /**
      * this function provides javascript code  for the Contact PAge
@@ -95,7 +95,7 @@
      function Projects(){
         var paragraph=document.getElementsByTagName("p")[0];
 
-        paragraph.textContent="This is my First Paragraph of " +document.title+ " page";
+        paragraph.innerHTML="OR Gate project was first project of my life.In the beginning,I thought that it is impossible for me to complete beacuse every time I  was changing something to enhance it's functionality everthing was messed up.Then my Physics teacher helpedme to complete my project on time."+ "Overall, I enjoyed a lot while doing this project.";
     }
     
    //document.body.onload=PageSwitcher; executes

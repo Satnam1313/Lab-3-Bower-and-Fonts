@@ -1,5 +1,17 @@
 /* custom css goes here */
 
+/**
+ * FileName: app.js
+ * 
+ * @author Satnam Singh
+ * @date June 9, 2016
+ * 
+ * StudentID: 300875942
+ * GitHub: https://github.com/Satnam1313/Lab-3-Bower-and-Fonts
+ * website:  http://lab3-fonts-and-bower.azurewebsites.net/contact.html
+ * @description This file is the main Css file for the web site
+ */
+
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 

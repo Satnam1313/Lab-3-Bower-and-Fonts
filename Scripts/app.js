@@ -51,7 +51,10 @@
         var paragraph=document.getElementsByTagName("p")[0];
 
         paragraph.textContent="This is my First Paragraph of " +document.title+ " page";
-      
+
+      var paragraph=document.getElementsByTagName("p")[0];
+
+      paragraph.innerHTML="<h3>Bower</h3><br> Bower is a package management system for client-side programming on the World Wide Web. It depends on Node.js and npm. It works with git and GitHub repositories. It was initially developed at Twitter by Jacob Thornton, co-creator of the successful Bootstrap framework, which helped Bower rapidly gain adoption."+"As of October 22, 2015, Bower's primary maintainer issued a call for support in order to maintain the project.<br>"+"<h3>Fonts</h3><br> Google Fonts (previously called Google Web Fonts) is an interactive directory of free hosted application programming interfaces for web fonts. It was launched in 2010 and revamped in 2011. Many of the fonts are released under the SIL Open Font License 1.1, while some are released under the Apache License; both are free software licenses. The fonts are also served by Monotype’s SkyFonts and by Adobe’s Edge Web Fonts and Typekit services."+"Google Fonts is designed to provide a platform for users to discover fonts and is used extensively. Its example font faces include Lato, Raleway, and Lobster";
    }
     /**
      * this function provides javascript code  for the Home PAge

@@ -50,7 +50,7 @@
    function InitialText() {
         var paragraph=document.getElementsByTagName("p")[0];
 
-        paragraph.textContent="This is my First Paragraph " +document.title+ " page";
+        paragraph.textContent="This is my First Paragraph of " +document.title+ " page";
       
    }
     /**
@@ -75,7 +75,7 @@
      function About(){
        var paragraph=document.getElementsByTagName("p")[0];
 
-        paragraph.textContent="This is my First Paragraph " +document.title+ " page";
+        paragraph.textContent="This is my First Paragraph of " +document.title+ " page";
     }
       /**
      * this function provides javascript code  for the Contact PAge
@@ -95,7 +95,7 @@
      function Projects(){
         var paragraph=document.getElementsByTagName("p")[0];
 
-        paragraph.textContent="This is my First Paragraph " +document.title+ " page";
+        paragraph.textContent="This is my First Paragraph of " +document.title+ " page";
     }
     
    //document.body.onload=PageSwitcher; executes
